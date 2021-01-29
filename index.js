@@ -1,64 +1,4 @@
 
-
-// function ticketBooking(ticket ,isIncrease) {
-//     let ticketCount=document.getElementById( ticket +'Count').value;
-//     let ticketNumberCount=parseInt( ticketCount);
-//     if (isIncrease==true) {
-//         ticketNumberCount++;
-//     }
-//     if (isIncrease==false &&  ticketNumberCount>0) {
-//         ticketNumberCount--;
-//     }
-//     document.getElementById( ticket +'Count').value=ticketNumberCount;
-//     amountCalculation();
-    
-// }
-
-
-// function amountCalculation() {
-//     let firstClassCount=subTotalCalculation('firstClassTicket');
-//     let economyCount=subTotalCalculation('economyTicket');
-//     let subTotal=firstClassCount*150+economyCount*100;
-//     document.getElementById('subTotal').innerText=subTotal;
-
-//     document.getElementById('charge');
-//     let totalCharge=Math.round(subTotal*0.1);
-//     document.getElementById('charge').innerText=totalCharge;
-
-//     document.getElementById('totalAmount');
-//     let totalCost=totalCharge+subTotal;
-//     document.getElementById('totalAmount').innerText=totalCost;
-// }
-
-// function subTotalCalculation(ticket) {
-//     let ticketCount=document.getElementById(ticket + 'Count').value;
-//     let ticketCountNumber=parseFloat(ticketCount);
-//     return  ticketCountNumber;
-
-// }
-
-// let economyTicketIncrease=document.getElementById('economyTicketIncrease');
-// economyTicketIncrease.addEventListener('click',function(){
-//     ticketBooking( 'economyTicket',true) ;
-
-// })
-
-// let economyTicketDecrease=document.getElementById('economyTicketDecrease');
-// economyTicketDecrease.addEventListener('click',function(){
-//     ticketBooking('economyTicket',false) ;
-// })
-
-// let firstClassTicketIncrease=document.getElementById('firstClassTicketIncrease');
-// firstClassTicketIncrease.addEventListener('click',function(){
-//     ticketBooking( 'firstClassTicket',true) ;
-// })
-
-// let firstClassTicketDecrease=document.getElementById('firstClassTicketDecrease');
-// firstClassTicketDecrease.addEventListener('click',function(){
-//     ticketBooking( 'firstClassTicket',false) ;
-// })
-
-
 let economyTicketIncrease=document.getElementById('economyTicketIncrease');
 economyTicketIncrease.addEventListener('click',function(){
     ticketBooking( 'economyTicket',true) ;
@@ -140,7 +80,4 @@ ticketByDone.addEventListener('click',function(){
 // end bonus section 
 
 // thank you 
-
-
-
 
